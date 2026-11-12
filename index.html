@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sumit Nayyar · Product Designer & Design Engineer</title>
+<meta name="description" content="Sumit Nayyar, product designer who ships code. Helsinki, Finland. Save my contact.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#F4F1EA">
+<meta property="og:title" content="Sumit Nayyar · Product Designer & Design Engineer">
+<meta property="og:description" content="Product designer who ships code. Tap to save my contact.">
+<meta property="og:image" content="https://skn1999.github.io/card/photo.jpg">
+<link rel="icon" href="photo.jpg">
+<link rel="apple-touch-icon" href="photo.jpg">
+<style>
+  :root{
+    --bg:#F4F1EA; --card:#FFFFFF; --ink:#1B1F1D; --muted:#5E6661;
+    --accent:#2F5D4A; --accent-ink:#FFFFFF; --line:#E3DED3; --chip:#EEF3F0;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#121513; --card:#1B1F1D; --ink:#F1EFE9; --muted:#A7AEA9;
+           --accent:#7FC4A3; --accent-ink:#0E1A14; --line:#2C322F; --chip:#223029; }
+  }
+  *{box-sizing:border-box;margin:0}
+  html,body{background:var(--bg);color:var(--ink)}
+  body{font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+       min-height:100svh;display:flex;justify-content:center;
+       padding:max(24px,env(safe-area-inset-top)) 20px max(28px,env(safe-area-inset-bottom))}
+  main{width:100%;max-width:420px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:28px;padding:32px 24px 24px;text-align:center;
+        box-shadow:0 1px 2px rgba(0,0,0,.04),0 12px 32px rgba(0,0,0,.06)}
+  .photo{width:132px;height:132px;border-radius:50%;object-fit:cover;display:block;margin:0 auto 18px;
+         border:4px solid var(--card);box-shadow:0 0 0 2px var(--accent)}
+  h1{font-size:28px;line-height:1.15;letter-spacing:-.02em;font-weight:700}
+  .role{margin-top:6px;font-size:17px;color:var(--ink);font-weight:500}
+  .meta{margin-top:4px;color:var(--muted);font-size:15px}
+  .pitch{margin:16px auto 0;max-width:30ch;color:var(--muted);font-size:15px}
+  .save{margin-top:24px;display:flex;align-items:center;justify-content:center;gap:10px;width:100%;
+        min-height:56px;border-radius:16px;background:var(--accent);color:var(--accent-ink);
+        font-weight:650;font-size:17px;text-decoration:none;border:0}
+  .save:active{transform:scale(.98)}
+  .links{margin-top:12px;display:grid;gap:10px}
+  .link{display:flex;align-items:center;gap:14px;min-height:56px;padding:10px 16px;border-radius:16px;
+        background:var(--chip);color:var(--ink);text-decoration:none;text-align:left}
+  .link:active{transform:scale(.98)}
+  .ic{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;background:var(--card);flex:none}
+  .ic svg{width:20px;height:20px;stroke:var(--accent);fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+  .lbl{display:block;font-size:13px;color:var(--muted);line-height:1.2}
+  .val{display:block;font-weight:600;font-size:15px;line-height:1.3;word-break:break-word}
+  .foot{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+  .foot button{background:none;border:0;color:var(--accent);font:inherit;font-weight:600;cursor:pointer;padding:8px}
+  a:focus-visible,button:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  @media (prefers-reduced-motion: reduce){ *{transition:none!important} }
+</style>
+</head>
+<body>
+<main>
+  <section class="card" aria-labelledby="name">
+    <img class="photo" src="photo.jpg" width="132" height="132" alt="Portrait of Sumit Nayyar">
+    <h1 id="name">Sumit Nayyar</h1>
+    <p class="role">Product Designer &amp; Design Engineer</p>
+    <p class="meta">Helsinki, Finland · Open to roles</p>
+    <p class="pitch">I design products and ship the code for them. 4+ years across UX, design systems and front-end.</p>
+
+    <a class="save" href="sumit-nayyar.vcf" download="Sumit Nayyar.vcf">
+      <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>
+      Save to contacts
+    </a>
+
+    <nav class="links" aria-label="Contact options">
+      <a class="link" href="mailto:sknayyar.sk@gmail.com">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+        <span><span class="lbl">Email</span><span class="val">sknayyar.sk@gmail.com</span></span>
+      </a>
+      <a class="link" href="tel:+358417434861">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z"/></svg></span>
+        <span><span class="lbl">Phone</span><span class="val">+358 41 743 4861</span></span>
+      </a>
+      <a class="link" id="li" href="https://www.linkedin.com/in/sumitnayyar-ux" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10v7M8 7v.01M12 17v-4a2 2 0 0 1 4 0v4M12 10v7"/></svg></span>
+        <span><span class="lbl">LinkedIn</span><span class="val">in/sumitnayyar-ux</span></span>
+      </a>
+      <a class="link" id="pf" href="https://skn1999.github.io/sumit-portfolio/?utm_source=contact-card&amp;utm_medium=direct&amp;utm_campaign=networking" target="_blank" rel="noopener">
+        <span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/></svg></span>
+        <span><span class="lbl">Portfolio</span><span class="val">Case studies &amp; work</span></span>
+      </a>
+    </nav>
+  </section>
+  <p class="foot"><button id="share" type="button" hidden>Share this card</button></p>
+</main>
+<script>
+  // Tag where the visit came from (?s=nfc or ?s=qr) on the portfolio link.
+  (function(){
+    var src = new URLSearchParams(location.search).get('s');
+    if (src && /^[a-z0-9-]{1,20}$/.test(src)) {
+      var pf = document.getElementById('pf');
+      pf.href = pf.href.replace('utm_medium=direct', 'utm_medium=' + src);
+    }
+    var b = document.getElementById('share');
+    if (navigator.share) {
+      b.hidden = false;
+      b.addEventListener('click', function(){
+        navigator.share({title:'Sumit Nayyar', text:'Product Designer & Design Engineer', url:'https://skn1999.github.io/card/'}).catch(function(){});
+      });
+    }
+  })();
+</script>
+</body>
+</html>
